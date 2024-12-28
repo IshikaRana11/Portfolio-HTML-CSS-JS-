@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(1, 1, 39);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(17, 17, 61);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(76, 76, 216);
+  font-size: 1.3rem;
+}
+.left {
+  margin-left: 200px;
+  font-size: 1.5rem;
+}
+.firstsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+.firstsection > div {
+  width: 30%;
+}
+.leftsection {
+  font-size: 3rem;
+}
+.rightsection img {
+  margin: 15px 0, 0, 15px;
+}
+.purple {
+  color: rgb(164, 97, 226);
+}
+#element {
+  color: rgb(164, 97, 226);
+}
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 15cm;
+}
+main hr {
+  border: 0;
+  background-color: #9c97f1;
+  height: 1.2px;
+  margin-top: 140px;
+  margin-bottom: 30px;
+}
+.secondsection h1 {
+  font-size: 1.7rem;
+}
+#text-gray {
+  color: gray;
+}
+.box {
+  background-color: white;
+  height: 2px;
+  margin: 56px 0;
+  width: 80vw;
+  display: flex;
+}
+.secondsection .vertical {
+  width: 1px;
+  height: 96px;
+  background-color: white;
+  margin: 0 150px;
+}
+.image-top {
+  width: 40px;
+  position: relative;
+  top: -40px;
+  left: -9px;
+}
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+}
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: #9c97f1;
+  width: 150px;
+  font-size: 9px;
+}
+footer {
+  background-color: rgb(8, 8, 25);
+  height: 233px;
+}
+.footer {
+  display: flex;
+  margin: 23px 122px;
+}
